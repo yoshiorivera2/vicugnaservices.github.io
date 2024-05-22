@@ -7,6 +7,7 @@
     border: none;
     scroll-behavior: none;
     outline: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 :root {
@@ -32,7 +33,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    opacity: .5;
+    opacity: .65;
 }
 
 header{
@@ -57,14 +58,14 @@ header{
     display:flex;
     color: var(--text-color);
     font-size: var(--p-font);
-    font-weight: 500;
-    margin: 40px;
+    font-weight: 700;
+    margin-left: 40px;
     transition: all .55s ease;
 } 
 
 img{
-    width: 100px;
-    height: 100px;
+    width: 60px;
+    height: 60px;
 }
 
 button{
@@ -89,17 +90,92 @@ button{
     padding: 0 1.5rem;
 }
 
+.form{
+
+    margin: 0 auto;
+    padding: 5px;
+}
+
 .contacto-datos{
-    padding: 10px;
+    padding: 2px;
 }
 
 .contacto-form{
     padding: 10px;
+    width: 100%;
 }
 
+p{
+    font-size: 15px;
+    color: var(--text-color);
+    padding: 5px;
+}
+
+h3{
+    color:var(--text-color);
+    padding: 5px;
+}
+
+
+input{
+    width: 100%;
+    height: 40px;
+    padding: 1px;
+    margin: 4px;
+    border-radius: 10px;
+    border: #101131 1px solid;
+}
+
+.input-texto{
+    height: 150px;
+
+}
+
+
+button{
+    background-color: #ffd700;
+    width: 100%;
+    height: 30px;
+    padding: 1px;
+    margin: 4px;
+    border-radius: 12px;
+    font-weight: bold;
+}
+
+menu{
+    color: #fff;
+}
+
+.flex-div{
+    display: flex;
+    gap: 4px;
+    justify-content: space-between;
+
+}
+
+.input-two{
+    display:block;
+    width: 50%;
+}
+
+.section-testimonios{
+    background-color: aqua;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    position:relative
+}
+.container-testimonios{
+    display: flex;
+}
+
+.p-footer{
+    color: #fff;
+}
+
+
 footer{
-    background-color: beige;
-    position: fixed;
+    background-color: #795548;
     width: 100%;
     bottom: 0;
     right: 0;
@@ -110,3 +186,4 @@ footer{
     justify-content: space-between;
 
 }
+
